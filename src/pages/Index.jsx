@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Box, Flex, Textarea, Button, Text, useToast } from '@chakra-ui/react';
-import { create } from 'lib/openai';
+import { create } from '../../lib/openai';
 
 const Index = () => {
   const [prompt, setPrompt] = useState('');
